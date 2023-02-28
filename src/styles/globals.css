@@ -1,3 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Link-underline animation */
+@keyframes underline {
+  0% {
+    width: 0;
+    left: 0;
+  }
+  100% {
+    width: 100%;
+    left: 0;
+  }
+}
+
+.link-underline {
+  position: relative;
+  text-decoration: none;
+}
+
+.link-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #333;
+  transition: width 0.8s ease-in-out;
+}
+
+.link-underline:hover::after {
+  animation: underline 0.3s forwards;
+}
