@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
+import Background from "./layout/background";
+import BgProjects from "../../public/project-bg/bg-projects.svg";
 
 function Projects() {
   const [width, setWidth] = useState(0);
@@ -18,19 +20,24 @@ function Projects() {
         </h2>
         <motion.div
           ref={carousel}
-          className="overflow-hidden cursor-grab max-w-[46rem] border border-gray-600"
+          className="overflow-hidden cursor-grab max-w-[55rem] border"
           whileTap={{ cursor: "grabbing" }}
         >
-          <motion.div
-            drag="x"
-            dragConstraints={{ right: 0, left: -width }}
-            className="flex gap-8"
+          <Background
+            image={BgProjects}
+            className="flex items-center justify-center"
           >
-            <motion.div className="m-4">{Post()}</motion.div>
-            <motion.div className="m-4">{Post()}</motion.div>
-            <motion.div className="m-4">{Post()}</motion.div>
-            <motion.div className="m-4">{Post()}</motion.div>
-          </motion.div>
+            <motion.div
+              drag="x"
+              dragConstraints={{ right: 0, left: -width }}
+              className="flex gap-8"
+            >
+              <motion.div className="bg-white ">{Post()}</motion.div>
+              <motion.div className="bg-white ">{Post()}</motion.div>
+              <motion.div className="bg-white ">{Post()}</motion.div>
+              <motion.div className="bg-white ">{Post()}</motion.div>
+            </motion.div>
+          </Background>
         </motion.div>
       </div>
     </section>

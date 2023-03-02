@@ -1,9 +1,6 @@
-import React from "react";
-import backgroundImage from "../../../public/bg-ilustrations/groupworking.svg";
-
-const Background = ({ children }) => {
+const Background = ({ children, image }) => {
   const styles = {
-    backgroundImage: `url(${backgroundImage})`,
+    backgroundImage: `url(${image})`,
     backgroundSize: "cover",
     backgroundPosition: "center center",
     backgroundRepeat: "no-repeat",
