@@ -1,16 +1,14 @@
-const Background = ({ children, image }) => {
-  const styles = {
-    backgroundImage: `url(${image})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center center",
-    backgroundRepeat: "no-repeat",
-    height: "91vh",
-  };
-  return (
-    <div className="mx-4 rounded-xl" style={styles}>
-      {children}
-    </div>
-  );
+import styled from "styled-components";
+
+const Background = ({ children }) => {
+  return <HeroContainer>{children}</HeroContainer>;
 };
+
+const HeroContainer = styled.div`
+  background-image: url("/bg-ilustrations/team.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 91vh;
+`;
 
 export default Background;
