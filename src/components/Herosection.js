@@ -17,7 +17,7 @@ function Herosection() {
             wide range, const-efficient, and full stack service that will
             tailor-fit your business needs
           </p>
-          <button className="p-4 mt-2 text-white bg-red-500 rounded-full">
+          <button className="p-4 mt-2 text-white bg-red-500 rounded-xl">
             Message us!
           </button>
         </div>
