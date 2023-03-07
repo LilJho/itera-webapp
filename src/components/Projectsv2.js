@@ -16,7 +16,7 @@ const Projectsv2 = () => {
 
 const projects = () => {
   return (
-    <div className=" rounded-2xl shadow-lg flex gap-6 mt-8  w-[60rem] h-[25rem]  bg-white backdrop-filter backdrop-blur-lg overflow-hidden">
+    <div className=" rounded-2xl shadow-lg flex mt-8  w-[60rem] h-[25rem]  bg-white backdrop-filter backdrop-blur-lg overflow-hidden">
       <div className="flex flex-col items-center justify-center w-1/2 h-full p-4 ">
         <div className="p-[5rem]">
           <h4 className="text-2xl font-bold font-NotoSans">
