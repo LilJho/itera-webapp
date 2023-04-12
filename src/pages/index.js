@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Footer from "@/components/Footer";
 import Herosection from "@/components/Herosection";
 
@@ -9,6 +10,7 @@ export default function Home() {
   return (
     <>
       <Herosection />
+      <About />
       <Services />
       {/* <Projects /> */}
       <Projectsv2 />
