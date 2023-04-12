@@ -47,7 +47,7 @@ function Projects() {
 function Post() {
   return (
     <article className="border border-black rounded-lg">
-      <div className="flex flex-col items-center gap-4 p-8">
+      <div className="flex flex-col items-center justify-center gap-4 p-8">
         <figure>
           <Image
             src={"/projects/psu.svg"}
