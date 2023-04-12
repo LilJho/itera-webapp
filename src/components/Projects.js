@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useState, useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import Background from "./layout/background";
+import Background from "./layout/Background";
 import BgProjects from "../../public/project-bg/bg-projects.svg";
 
 function Projects() {
