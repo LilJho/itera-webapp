@@ -11,6 +11,7 @@ const About = () => {
             src={"/about/teamhands.jpg"}
             width={300}
             height={300}
+            alt="Team of people"
             className="rounded-xl"
           />
           <div className="h-[450px] flex flex-col justify-between">
@@ -46,16 +47,16 @@ const About = () => {
               can be an exciting but challenging endeavor, and it requires
               careful planning and execution to achieve success. One of the key
               factors that can make or break a startup is the effective use of
-              technology. In today's digital age, technology plays a crucial
-              role in enabling businesses to operate efficiently and compete in
-              the market. A startup that is focused on helping other startups
-              make their vision a reality by leveraging technology can provide a
-              valuable service. This type of company would work closely with
-              entrepreneurs and business owners to understand their needs and
-              develop a customized technology strategy that aligns with their
-              goals and budget. The firm could help clients identify and
-              implement the right hardware and software solutions, as well as
-              provide ongoing support and maintenance services. One of the
+              technology. In today&apos;s digital age, technology plays a
+              crucial role in enabling businesses to operate efficiently and
+              compete in the market. A startup that is focused on helping other
+              startups make their vision a reality by leveraging technology can
+              provide a valuable service. This type of company would work
+              closely with entrepreneurs and business owners to understand their
+              needs and develop a customized technology strategy that aligns
+              with their goals and budget. The firm could help clients identify
+              and implement the right hardware and software solutions, as well
+              as provide ongoing support and maintenance services. One of the
               primary benefits of working with a startup that specializes in
               technology is the access to expert knowledge and experience. They
               would have experience working with a variety of businesses across
@@ -64,8 +65,8 @@ const About = () => {
               startup that focuses on helping other startups make the most of
               technology can be a valuable partner for entrepreneurs and
               business owners. By providing expert guidance and support, this
-              type of firm can help new businesses succeed and thrive in today's
-              digital landscape.
+              type of firm can help new businesses succeed and thrive in
+              today&apos;s digital landscape.
             </p>
             <button className="p-2 text-white bg-teal-500 rounded">
               Work with us!
@@ -76,6 +77,7 @@ const About = () => {
             src={"/about/startup.jpg"}
             width={800}
             height={800}
+            alt="A startup company"
             className="rounded-xl"
           />
         </div>
@@ -85,6 +87,7 @@ const About = () => {
             width={400}
             height={300}
             className="rounded-xl"
+            alt="A girl with a lot of ideas"
           />
           <div className="flex flex-col justify-between min-h-[426px]">
             <p className="text-xs text-gray-600 max-w-[20rem] ">

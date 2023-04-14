@@ -10,7 +10,7 @@ function Projects() {
 
   useEffect(() => {
     setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
-  });
+  }, []);
 
   return (
     <section className="my-10">

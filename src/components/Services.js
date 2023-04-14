@@ -10,7 +10,12 @@ const Services = () => {
       <article className="grid grid-cols-3 grid-rows-2 gap-2 pt-4">
         <section className="min-w-[20rem] min-h-[20rem] bg-white border-r border-b border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
-            <Image src={"/services/ui-ux.svg"} width={150} height={150} />
+            <Image
+              src={"/services/ui-ux.svg"}
+              alt="UI/UX"
+              width={150}
+              height={150}
+            />
           </figure>
           <figcaption>
             <h3 className="flex justify-center text-base font-medium text-center font-NotoSans">
@@ -25,7 +30,12 @@ const Services = () => {
         </section>
         <section className="min-w-[20rem] min-h-[20rem] bg-white border-r border-b border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
-            <Image src={"/services/mobildev.svg"} width={150} height={150} />
+            <Image
+              src={"/services/mobildev.svg"}
+              width={150}
+              height={150}
+              alt="Mobile development"
+            />
           </figure>
           <figcaption>
             <h3 className="flex justify-center text-base font-medium text-center font-NotoSans">
@@ -38,7 +48,12 @@ const Services = () => {
         </section>
         <section className="min-w-[20rem] min-h-[20rem] bg-white border-b border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
-            <Image src={"/services/business.svg"} width={150} height={150} />
+            <Image
+              src={"/services/business.svg"}
+              width={150}
+              height={150}
+              alt="Business"
+            />
           </figure>
           <figcaption>
             <h3 className="flex justify-center text-base font-medium text-center font-NotoSans">
@@ -52,7 +67,12 @@ const Services = () => {
         </section>
         <section className="min-w-[20rem] min-h-[20rem] bg-white border-r border-t border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
-            <Image src={"/services/events.svg"} width={150} height={150} />
+            <Image
+              src={"/services/events.svg"}
+              width={150}
+              height={150}
+              alt="Events"
+            />
           </figure>
           <figcaption>
             <h3 className="flex justify-center text-base font-medium text-center font-NotoSans">
@@ -60,14 +80,19 @@ const Services = () => {
             </h3>
             <p className="pt-2 text-xs text-gray-600 font-Worksans">
               No need to spend 5-6 digits for a website just for your short
-              event. We offer a great solution. Let's talk. *1 day development
-              *QR Code - Scan Ready *Interactive
+              event. We offer a great solution. Let&apos;s talk. *1 day
+              development *QR Code - Scan Ready *Interactive
             </p>
           </figcaption>
         </section>
         <section className="min-w-[20rem] min-h-[20rem] bg-white border-r border-t border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
-            <Image src={"/services/social.svg"} width={150} height={150} />
+            <Image
+              src={"/services/social.svg"}
+              width={150}
+              height={150}
+              alt="Socials"
+            />
           </figure>
           <figcaption>
             <h3 className="flex justify-center text-base font-medium text-center font-NotoSans">
@@ -82,7 +107,12 @@ const Services = () => {
         </section>
         <section className="min-w-[20rem] min-h-[20rem] bg-white border-t border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
-            <Image src={"/services/webdev.svg"} width={150} height={150} />
+            <Image
+              src={"/services/webdev.svg"}
+              width={150}
+              height={150}
+              alt="Web Development"
+            />
           </figure>
           <figcaption>
             <h3 className="flex justify-center text-base font-medium text-center font-NotoSans">

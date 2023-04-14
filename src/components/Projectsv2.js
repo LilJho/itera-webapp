@@ -45,6 +45,7 @@ const projects = () => {
           width={470}
           height={470}
           className="rounded-2xl"
+          alt="PSU webApp"
         />
       </div>
       <div className="flex flex-col items-center justify-center p-4 w-[510px]">
