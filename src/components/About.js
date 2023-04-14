@@ -38,9 +38,9 @@ const About = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-center gap-4 mt-8">
-          <div className="h-[533px] flex flex-col justify-between">
-            <p className="text-xs text-gray-700 max-w-[25rem]">
+        <div className="items-center justify-center hidden gap-4 mt-8 xl:flex">
+          <div className="h-[466px] flex flex-col justify-between">
+            <p className="text-xs text-gray-700 max-w-[20rem]">
               <span className="text-base font-semibold">
                 Starting a new business{" "}
               </span>
@@ -51,22 +51,12 @@ const About = () => {
               crucial role in enabling businesses to operate efficiently and
               compete in the market. A startup that is focused on helping other
               startups make their vision a reality by leveraging technology can
-              provide a valuable service. This type of company would work
-              closely with entrepreneurs and business owners to understand their
-              needs and develop a customized technology strategy that aligns
-              with their goals and budget. The firm could help clients identify
-              and implement the right hardware and software solutions, as well
-              as provide ongoing support and maintenance services. One of the
-              primary benefits of working with a startup that specializes in
-              technology is the access to expert knowledge and experience. They
-              would have experience working with a variety of businesses across
-              different sectors, and they would be able to offer valuable
-              insights and guidance to help their clients succeed. In summary, a
-              startup that focuses on helping other startups make the most of
-              technology can be a valuable partner for entrepreneurs and
-              business owners. By providing expert guidance and support, this
-              type of firm can help new businesses succeed and thrive in
-              today&apos;s digital landscape.
+              provide a valuable service. In summary, a startup that focuses on
+              helping other startups make the most of technology can be a
+              valuable partner for entrepreneurs and business owners. By
+              providing expert guidance and support, this type of firm can help
+              new businesses succeed and thrive in today&apos;s digital
+              landscape.
             </p>
             <button className="p-2 text-white bg-teal-500 rounded">
               Work with us!
@@ -75,8 +65,8 @@ const About = () => {
 
           <Image
             src={"/about/startup.jpg"}
-            width={800}
-            height={800}
+            width={700}
+            height={700}
             alt="A startup company"
             className="rounded-xl"
           />

@@ -6,7 +6,7 @@ function Herosection() {
   return (
     <Background>
       <Navbar />
-      <main className="z-10 ">
+      <main className="z-10 md:to-blue-50">
         <div className="max-w-[20rem] transform transition duration-200 ease-in-out hover:scale-105 bg-white bg-opacity-50 backdrop-filter backdrop-blur-lg border border-gray-300 p-6 rounded-lg shadow-lg relative left-[5rem] top-[1rem]">
           <h3 className="text-[5rem] font-bold font-NotoSans leading-none">
             IT-era

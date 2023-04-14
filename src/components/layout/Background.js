@@ -6,7 +6,6 @@ const Background = ({ children }) => {
       <Image
         src={"/bg-ilustrations/team.jpg"}
         fill
-        cover
         alt="Background Illustration of Hero Section"
         className="select-none"
       />
