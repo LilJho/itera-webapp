@@ -7,8 +7,8 @@ const Services = () => {
       <h2 className="text-xl font-bold text-center font-NotoSans">
         Services we offer
       </h2>
-      <article className="grid grid-cols-2 gap-2 pt-4 xl:grid-cols-3 xl:grid-rows-2">
-        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border-r border-b border-[#E1E1E1] flex flex-col justify-center items-center p-4">
+      <article className="grid grid-cols-1 gap-2 pt-4 md:grid-cols-2 xl:grid-cols-3 xl:grid-rows-2">
+        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border md:border-0 md:border-r md:border-b border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
             <Image
               src={"/services/ui-ux.svg"}
@@ -28,7 +28,7 @@ const Services = () => {
             </p>
           </figcaption>
         </section>
-        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white xl:border-r border-b border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
+        <section className="xl:min-w-[15rem] min-w-[10rem] border md:border-0 min-h-[10rem] xl:min-h-[15rem] bg-white xl:border-r md:border-b md:border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
             <Image
               src={"/services/mobildev.svg"}
@@ -46,7 +46,7 @@ const Services = () => {
             </p>
           </figcaption>
         </section>
-        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border-t border-r border-b xl:border-t-0 xl:border-r-0 xl:border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
+        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border md:border-0 md:border-t md:border-r md:border-b xl:border-t-0 xl:border-r-0 xl:border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
             <Image
               src={"/services/business.svg"}
@@ -65,7 +65,7 @@ const Services = () => {
             </p>
           </figcaption>
         </section>
-        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white xl:border-r border-t border-l xl:border-l-0 xl:border-b-0 border-b border-[#E1E1E1] flex flex-col justify-center items-center p-4">
+        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border md:border-0 xl:border-r md:border-t md:border-l xl:border-l-0 xl:border-b-0 border-b border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
             <Image
               src={"/services/events.svg"}
@@ -85,7 +85,7 @@ const Services = () => {
             </p>
           </figcaption>
         </section>
-        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border-r border-t xl:border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
+        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border md:border-0 md:border-r md:border-t xl:border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
             <Image
               src={"/services/social.svg"}
@@ -105,7 +105,7 @@ const Services = () => {
             </p>
           </figcaption>
         </section>
-        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border-t border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
+        <section className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border md:border-0 md:border-t md:border-l border-[#E1E1E1] flex flex-col justify-center items-center p-4">
           <figure>
             <Image
               src={"/services/webdev.svg"}

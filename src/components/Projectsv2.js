@@ -25,7 +25,7 @@ const Projectsv2 = () => {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        className="w-[620px] h-[600px]"
+        className="w-full h-[600px]"
       >
         <SwiperSlide>{projects()}</SwiperSlide>
         <SwiperSlide>{projects()}</SwiperSlide>
@@ -38,7 +38,7 @@ const Projectsv2 = () => {
 
 const projects = () => {
   return (
-    <div className="mx-auto flex max-w-[510px] max-h-[533px] flex-col mt-8 overflow-hidden bg-white shadow-lg rounded-2xl backdrop-filter backdrop-blur-lg">
+    <div className="mx-auto flex w-[400px] h-[500px] md:max-w-[510px] md:max-h-[533px] flex-col mt-8 overflow-hidden bg-white shadow-lg rounded-2xl backdrop-filter backdrop-blur-lg">
       <div className="flex items-center justify-center h-full p-4 bg-[url('/project-bg/bgnew.svg')] bg-cover bg-center">
         <Image
           src={"/projects/psu.svg"}
@@ -48,7 +48,7 @@ const projects = () => {
           alt="PSU webApp"
         />
       </div>
-      <div className="flex flex-col items-center justify-center p-4 w-[510px]">
+      <div className="flex flex-col items-center justify-center p-4 w-[400px] md:w-[510px]">
         <div className="flex flex-col items-center justify-center w-full">
           <h4 className="text-base font-medium font-NotoSans">
             PSU web application

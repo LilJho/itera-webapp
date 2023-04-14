@@ -6,7 +6,7 @@ const About = () => {
     <div className="flex flex-col items-center justify-center w-full py-[10rem] bg-gray-100">
       <h4 className="text-xl font-semibold font-NotoSan">About us</h4>
       <article className="flex flex-col justify-center gap-[8rem] items center mt-[4rem]">
-        <div className="flex items-center justify-center gap-4 mt-8">
+        <div className="flex flex-col items-center justify-center gap-4 mt-8 md:flex-row">
           <Image
             src={"/about/teamhands.jpg"}
             width={300}
@@ -71,7 +71,7 @@ const About = () => {
             className="rounded-xl"
           />
         </div>
-        <div className="flex items-center justify-center gap-4 mt-8">
+        <div className="flex flex-col items-center justify-center gap-4 mt-8 md:flex-row">
           <Image
             src={"/about/andrea.jpg"}
             width={400}
