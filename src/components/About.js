@@ -12,9 +12,9 @@ const About = () => {
             width={300}
             height={300}
             alt="Team of people"
-            className="rounded-xl"
+            className="rounded mt-2-xl"
           />
-          <div className="h-[450px] flex flex-col justify-between">
+          <div className="md:h-[450px] flex flex-col md:justify-between">
             <p className="text-xs text-gray-700 max-w-[20rem] font-WorkSans">
               <span className="text-base font-semibold">
                 The startup software firm{" "}
@@ -33,7 +33,7 @@ const About = () => {
               company is able to work closely with their clients to deliver
               projects that exceed their expectations and drive business growth.
             </p>
-            <button className="p-2 text-white bg-teal-500 rounded">
+            <button className="p-2 mt-4 text-white bg-teal-500 rounded">
               Work with us!
             </button>
           </div>
@@ -68,7 +68,7 @@ const About = () => {
             width={700}
             height={700}
             alt="A startup company"
-            className="rounded-xl"
+            className="rounded mt-2-xl"
           />
         </div>
         <div className="flex flex-col items-center justify-center gap-4 mt-8 md:flex-row">
@@ -76,10 +76,10 @@ const About = () => {
             src={"/about/andrea.jpg"}
             width={400}
             height={300}
-            className="rounded-xl"
+            className="rounded mt-2-xl"
             alt="A girl with a lot of ideas"
           />
-          <div className="flex flex-col justify-between min-h-[426px]">
+          <div className="flex flex-col md:justify-between md:min-h-[426px]">
             <p className="text-xs text-gray-600 max-w-[20rem] ">
               <span className="text-base font-semibold">
                 The startup software firm{" "}
@@ -98,7 +98,7 @@ const About = () => {
               company is able to work closely with their clients to deliver
               projects that exceed their expectations and drive business growth.
             </p>
-            <button className="p-2 text-white bg-teal-500 rounded">
+            <button className="p-2 mt-4 text-white bg-teal-500 rounded">
               Work with us!
             </button>
           </div>

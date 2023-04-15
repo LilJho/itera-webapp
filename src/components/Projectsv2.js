@@ -25,7 +25,7 @@ const Projectsv2 = () => {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        className="w-full h-[600px]"
+        className="w-full md:w-[25rem] h-[600px]"
       >
         <SwiperSlide>{projects()}</SwiperSlide>
         <SwiperSlide>{projects()}</SwiperSlide>
