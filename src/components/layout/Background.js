@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Background = ({ children }) => {
   return (
-    <div className="relative w-full h-screen ">
+    <div className="relative w-full h-screen overflow-hidden">
       <Image
         src={"/bg-ilustrations/team.jpg"}
         fill
