@@ -17,7 +17,6 @@ function Navbar() {
           {isOpen ? <GrClose className="z-10" /> : <FiMenu className="z-10" />}
         </div>
       </div>
-
       <ul
         className={`absolute w-screen h-[93vh] md:w-[25rem] md:h-[3rem] md:items-center md:justify-between md:right-2 z-10 p-6 font-medium bg-white bg-opacity-50 border border-gray-300 rounded-lg shadow-lg cursor-pointer top-16 md:top-2 md:flex text-4xl md:text-xs md:flex-row backdrop-filter backdrop-blur-lg transition-all delay-200 ease-in ${
           isOpen ? "right-0" : "right-[-765px]"

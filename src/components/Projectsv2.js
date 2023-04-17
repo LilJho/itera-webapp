@@ -14,10 +14,6 @@ const Projectsv2 = () => {
       <h1 className="mt-[5rem] text-xl font-semibold font-NotoSans">
         Our Latest Works
       </h1>
-      {/* <div className="flex items-center gap-[3rem] mt-6">
-        {projects()}
-        {projects()}
-      </div> */}
       <Swiper
         modules={[Navigation, Pagination, A11y]}
         spaceBetween={50}
