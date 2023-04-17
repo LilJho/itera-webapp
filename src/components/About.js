@@ -8,7 +8,9 @@ const About = () => {
       <article className="flex flex-col justify-center gap-[8rem] items center mt-[4rem]">
         <div className="flex flex-col items-center justify-center gap-4 px-4 mt-8 md:flex-row">
           <Image
-            src={"/about/teamhands.jpg"}
+            src={
+              "https://res.cloudinary.com/dlwdolltd/image/upload/v1681764893/ITera/about/teamhands_oenzxj.jpg"
+            }
             width={300}
             height={300}
             alt="Team of people"
@@ -64,7 +66,9 @@ const About = () => {
           </div>
 
           <Image
-            src={"/about/startup.jpg"}
+            src={
+              "https://res.cloudinary.com/dlwdolltd/image/upload/v1681764891/ITera/about/startup_aqgmdg.jpg"
+            }
             width={700}
             height={700}
             alt="A startup company"
@@ -73,7 +77,9 @@ const About = () => {
         </div>
         <div className="flex flex-col items-center justify-center gap-4 px-4 mt-8 md:flex-row">
           <Image
-            src={"/about/andrea.jpg"}
+            src={
+              "https://res.cloudinary.com/dlwdolltd/image/upload/v1681764895/ITera/about/andrea_m6gf3k.jpg"
+            }
             width={400}
             height={300}
             className="rounded mt-2-xl"
