@@ -10,7 +10,7 @@ import "swiper/css/scrollbar";
 
 const Projectsv2 = () => {
   return (
-    <div className="flex flex-col items-center mt-2 mb-[5rem]">
+    <div id="projects" className="flex flex-col items-center mt-2 mb-[5rem]">
       <h1 className="mt-[5rem] text-xl font-semibold font-NotoSans">
         Our Latest Works
       </h1>

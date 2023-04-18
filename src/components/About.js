@@ -3,9 +3,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center w-full py-[10rem] bg-gray-100">
+    <div
+      id="about"
+      className="flex flex-col items-center justify-center w-full py-[10rem] bg-gray-100"
+    >
       <h4 className="text-xl font-semibold font-NotoSan">About us</h4>
-      <article className="flex flex-col justify-center gap-[8rem] items center mt-[4rem]">
+      <article className="flex flex-col justify-center gap-[8rem] items center">
         <div className="flex flex-col items-center justify-center gap-4 px-4 mt-8 md:flex-row">
           <Image
             src={"/about/teamhands.jpg"}

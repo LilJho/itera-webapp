@@ -40,7 +40,7 @@ const Services = () => {
     },
   ];
   return (
-    <section className="py-4 xl:px-[5rem] mt-[5rem] px-8">
+    <section id="services" className="py-4 xl:px-[5rem] mt-[5rem] px-8">
       <h2 className="text-xl font-bold text-center font-NotoSans">
         Services we offer
       </h2>
@@ -48,7 +48,7 @@ const Services = () => {
         {services.map((service, index) => (
           <section
             key={index}
-            className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border md:border-0 md:border-r md:border-b border-[#E1E1E1] flex flex-col justify-center items-center p-4"
+            className="xl:min-w-[15rem] min-w-[10rem] min-h-[10rem] xl:min-h-[15rem] bg-white border border-[#E1E1E1] flex flex-col justify-center items-center p-4"
           >
             <figure>
               <Image src={service.img} alt="UI/UX" width={150} height={150} />
