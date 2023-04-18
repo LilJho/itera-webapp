@@ -37,9 +37,7 @@ const projects = () => {
     <div className="flex items-center justify-center w-full h-full my-8">
       <div className="h-[12rem] w-[20rem] md:w-[30rem] md:h-[16rem] overflow-hidden bg-white shadow-lg rounded-2xl backdrop-filter backdrop-blur-lg">
         <Image
-          src={
-            "https://res.cloudinary.com/dlwdolltd/image/upload/v1681764957/ITera/projects/psu_mzxatn.svg"
-          }
+          src={"/projects/psu.jpg"}
           fill
           className="rounded-2xl"
           alt="PSU webApp"
