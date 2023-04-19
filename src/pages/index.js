@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Herosection from "@/components/Herosection";
 import Projectsv2 from "@/components/Projectsv2";
 import Services from "@/components/Services";
+import Clients from "@/components/Clients";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
@@ -23,6 +24,7 @@ export default function Home() {
       <Herosection />
       <About />
       <Services />
+      <Clients />
       <Projectsv2 />
       <Footer />
     </>
